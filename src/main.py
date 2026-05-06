@@ -9,9 +9,12 @@ def subtract(a, b):
 def multiply(a, b):
  """Multiply two numbers"""
  # TODO: Implement this function
- pass
-def divide(a, b):
- """Divide a by b"""
+ 
+def multiply(a, b):
+ """Multiply two numbers"""
+ result = a * b
+ print(f"Multiplying {a} x {b}")
+ return result
  # TODO: Implement this function
  pass
 if __name__ == "__main__":
