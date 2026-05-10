@@ -1,0 +1,3 @@
+GitHub Actions workflow executes automatically whenever code is pushed to the main branch or when a pull request is created. Once triggered, GitHub spins up a new virtual machine running Ubuntu Linux. The workflow then retrieves the repository so the code becomes accessible, and executes a simple echo command that outputs a confirmation message.
+
+This is helpful because it eliminates the need to manually verify whether a push was completed successfully. In a real team environment, this same setup would be applied to automatically run tests, validate formatting, or build an application whenever someone contributes code. The advantage is speed and reliability  every push is validated in the same way, each time, without anyone needing to remember to do it manually.
